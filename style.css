@@ -1,0 +1,86 @@
+body {
+  background:lightpink;
+}
+
+/*image style*/
+
+img{
+  float: right;
+  width: 175px;
+  margin: 10px;
+  border-color: lightblue;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 10px;
+  height:175px;
+}
+
+/*Tittle style*/
+
+h1 {
+  color:violet;
+  font-family:fantasy;
+  font-size:40px;
+  text-align: center;
+}
+
+/*Tittle style*/
+
+h3{
+  color:purple;
+  font-family:fantasy;
+  font-size:20px;
+  text-align:left;
+}
+h4{
+  color:purple;
+  font-family:fantasy;
+  text-align:left;
+}
+
+/*paragraph style*/
+
+p {
+  color:deeppink;
+  font-family: sans-serif,;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* div style to center links */
+.links {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* CHECK ME OUT! link special styling */
+a:hover {
+  color:hotpink;
+  font-size: 24px;
+  text-decoration-style: wavy;
+}
+
+/* CHECK ME OUT! link special styling */
+a:active {
+  color:violet;
+  text-decoration-color: blue;
+
+}
+
+/* basic link style */
+a {
+  font-family:fantasy;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color:lightblue;
+  margin: 10px;
+}
+/*body style*/
+.image-card {
+  padding: 3%;
+  display:flex;
+}
+.info {
+  width: 95%;
+  align-items:center;
+}
